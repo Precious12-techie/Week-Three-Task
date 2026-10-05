@@ -17,5 +17,5 @@ if (score <= 0 && score > 100) {
 } else {
   console.log("you made an F");
 }
-let result = 77;
-console.log(`result : ${score >= 50 ? "you passed" : "you failed"}`);
+let result = score >= 50 ? "passed" : "failed";
+console.log("result:" + result);
